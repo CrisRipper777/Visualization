@@ -18,8 +18,8 @@
 
 初始绘制的 K线图：
 
-![image-20221204224620946](C:\Users\Ripper\AppData\Roaming\Typora\typora-user-images\image-20221204224620946.png)
+![k线图](images/k线图.png)
 
 构思中公司数据绘制的对外投资行业分布图：
 
-![对外投资-对外投资行业分布图](C:\Users\Ripper\Desktop\对外投资-对外投资行业分布图.png)
+![对外投资-对外投资行业分布图](images/对外投资-对外投资行业分布图.png)
