@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="jumbotron well">
+                    <h2 align="center">
+                        平安银行金融数据 Visualization
+                    </h1>
+                    <p> </p><p> </p>
+                    <p>
+                        平安银行股份有限公司（曾用名：深圳发展银行股份有限公司）成立于1987年，位于广东省深圳市，是一家以从事货币金融服务为主的企业。
+                        该 Visualization 项目通过获取平安银行股份有限公司财经数据，使用 pyecharts 库构建
+                        股票交易历史数据的可交互可视化展示，并且绘制公司相关数据分析可视化结果。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h3>
+                        公司股票历史行情可视化 <small>股票代码'000001.SZ'</small>
+                    </h1>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-3 column">
+                        <div class="jumbotron well">
+                            <h3>
+                                平安银行股票K线均线图
+                            </h1>
+                            <p>
+                                数据来源：使用Tushare平台获取个股历史交易数据（包括均线数据）。
+                            </p>
+                            <p>
+                                右图为平安银行股份有限公司A股历史行情K线均线图，绘制了2021年全年该公司股票行情走势，MA均线以及交易日的交易量。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 column">
+                        <iframe name="iframe1" width=1030px height=680px src="K线图.html" frameborder=0 scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h3>
+                        公司综合信息可视化 <small>股票代码'000001.SZ'</small>
+                    </h1>
+                </div>
+                <div class="jumbotron well">
+                    <p>
+                        下面将对平安银行公司基础金融信息进行可视化分析。
+                    </p>
+                    <p>
+                        以下左图为该公司对外投资行业分布图，可以看到该公司投资重心主要为金融业、批发零售业以及制造业，其余各行业占比不是很大。
+                    </p>
+                    <p>
+                        以下右图为该公司2016-2021年6年间公司年度收支统计图，观察发现该公司年度营业收入呈现逐年下降趋势，营业支出呈现出与营业收入相似趋势。
+                    </p>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-6 column">
+                        <iframe name="iframe2" width=800px height=580px src="投资类型分布图.html" frameborder=0 scrolling="no"></iframe>
+                    </div>
+                    <div class="col-md-6 column">
+                        <iframe name="iframe2" width=600px height=580px src="每年收支统计图.html" frameborder=0 scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="jumbotron well">
+                    <p>
+                        下图为该公司子公司分布地图，可见公司分布多位于东南沿海一带经济发达地区。
+                    </p>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-1 column">
+                    </div>
+                    <div class="col-md-11 column">
+                        <iframe align="middle" width=1200px height=680px src="子公司分布地图.html" frameborder=0 scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
