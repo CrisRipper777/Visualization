@@ -2,6 +2,10 @@
 
 ### 可视化大作业 Interactive Dashboard
 
+**最终结果连接：**
+
+https://crisripper777.github.io/
+
 #### 项目结构：
 
 - ##### 实现关于平安银行股份有限公司的信息以及股票交易数据的交互式可视化
@@ -29,6 +33,4 @@
 
 - ##### 最后将所绘制得到的可视化结果使用 github.io 可免费部署到 web 
 
-**最终结果连接：**
 
-https://crisripper777.github.io/
