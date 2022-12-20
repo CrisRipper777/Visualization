@@ -2,6 +2,14 @@
 
 ### 可视化大作业 Interactive Dashboard
 
+##### 引用模板连接：
+
+使用了pyecharts官方文档里的pyecharts-gallery里边画图的代码模板，并且进行了修改：1)增加了K线图中的均线，并且增加了一个滑动组件和缩放功能，还增加了十字线定位数据。
+
+![img](image/示例.png)
+
+https://gallery.pyecharts.org/#/README
+
 **最终结果连接：**
 
 https://crisripper777.github.io/
