@@ -43,7 +43,8 @@
 
 #### 参考资料：
 
-1) pyecharts 官方文档 https://gallery.pyecharts.org/#/README
-2) Tushare大数据开放社区，获取股票数据以及公司数据 https://tushare.pro/
+1) pyecharts 官方文档： [https://gallery.pyecharts.org/#/README](https://pyecharts.org/#/zh-cn/intro)
+2) pyecharts-gallery 官方绘图示例： https://gallery.pyecharts.org/#/README
+3) Tushare大数据开放社区，获取股票数据以及公司数据 https://tushare.pro/
 
  
